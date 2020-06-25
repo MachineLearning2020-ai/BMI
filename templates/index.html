@@ -14,7 +14,13 @@
 
 <body>
  <div class="login">
-	<h1>BMI Model</h1>
+  <h1>BMI Model</h1>
+  <p>
+    Height should be In centimeters.<br>
+    Weight Should be In Kg.<br>
+    For Male use 0<br>
+    For Female 1
+    </p>
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
